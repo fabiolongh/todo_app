@@ -15,7 +15,7 @@ void main() async {
   await FlutterFlowTheme.initialize();
 /*
 flutter pub get
-flutter packages pub run build_runner build --delete-conflicting-outputs*/ 
+flutter packages pub run build_runner build --delete-conflicting-outputs*/
   runApp(MyApp());
 }
 
@@ -71,7 +71,6 @@ class _MyAppState extends State<MyApp> {
       home: initialUser == null || displaySplashImage
           ? Center(
               child: SizedBox(
-
                 width: 50,
                 height: 50,
                 child: CircularProgressIndicator(
